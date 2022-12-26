@@ -5,9 +5,12 @@ import Navbar from '../pages/Shared/Navbar';
 
 const MainLayout = () => {
     return (
-        <div>
+        <div >
             <Navbar/>
-            <Outlet/>
+            <div className='min-h-[65vh]'>
+            <Outlet  />
+            </div>
+           
             <Footer/>
         </div>
     );
